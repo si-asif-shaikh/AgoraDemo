@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/userchat_F">
+
+    <fragment
+        android:id="@+id/userchat_F"
+        android:name="com.example.agorademo.presentation.home.userChat.UserList_F"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_user_chat" />
+    <fragment
+        android:id="@+id/roomChat_F"
+        android:name="com.example.agorademo.presentation.home.roomChat.RoomListing_F"
+        android:label="fragment_room_chat_"
+        tools:layout="@layout/fragment_room_chat_" />
+    <fragment
+        android:id="@+id/groupChat_F"
+        android:name="com.example.agorademo.presentation.home.groupChat.GroupChat_F"
+        android:label="GroupChat_F" />
+</navigation>

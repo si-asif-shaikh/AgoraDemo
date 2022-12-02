@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/userchat_F"
+        android:title="User Chat"
+        android:icon="@drawable/ic_breaking_news"
+        />
+    <item
+        android:id="@+id/roomChat_F"
+        android:title="Room Chat"
+        android:icon="@drawable/ic_all_news"
+        />
+
+    <item
+        android:id="@+id/groupChat_F"
+        android:title="Group Chat"
+        android:icon="@drawable/ic_all_news"
+        />
+
+</menu>
